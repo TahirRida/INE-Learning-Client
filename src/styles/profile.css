@@ -1,0 +1,111 @@
+.profile-containerAll {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 4px 10px 10px rgba(0, 0, 0, 0.171);
+    margin: 6%;
+
+
+}
+
+.profile-container {
+    padding: 2%;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profile-info h2 {
+    margin-left: 10px;
+}
+
+.course-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.course-card {
+    position: relative;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.course-card.zoomed {
+    transform: scale(1.1);
+}
+
+.course-card button {
+    margin-top: 10px;
+    margin-right: 5%;
+}
+
+.course-card button:last-child {
+    margin-right: 0;
+}
+
+.course-card .update-button {
+    position: absolute;
+    top: 1%;
+    right: -10%;
+    background-color: #FFD1E3;
+    color: #392467;
+    min-width: 10px;
+    border-radius: 20px;
+}
+
+.profile1-button {
+    position: absolute;
+    bottom: 3.5rem;
+    right: -35%;
+    background-color: #FFD1E3;
+    color: #392467;
+    min-width: 30px;
+    padding: 0;
+    border-radius: 100px;
+    cursor: 'pointer';
+}
+
+.profile1-button:hover {
+    background-color: #A367B1;
+
+
+}
+
+.course-card .update-button:hover {
+    background-color: #A367B1;
+}
+
+.course-card .delete-button {
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+    margin-left: 32%;
+}
+
+.course-card .delete-button:hover {
+    background-color: darkred;
+}
+
+.home-banner-container {
+    position: relative;
+    display: flex;
+    padding-top: 1rem;
+}
+
+.home-bannerImage-container {
+    position: absolute;
+    top: -120px;
+    right: -170px;
+    z-index: -2;
+    max-width: 700px;
+}
+
+.edit-upload:hover {
+    background-color: #c0bdc2;
+    border-color: #c0bdc2;
+}
